@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Slang translator",
+    "name": "Slang translator by Gus",
     "version": "1.0",
     "description": "Translate text from any website to slang using Google Palm 2 and have it read out loud using Google Text to Speech.",
     "permissions": ["contextMenus", "activeTab", "storage"],
