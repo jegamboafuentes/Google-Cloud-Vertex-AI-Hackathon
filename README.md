@@ -21,6 +21,8 @@ The goal of this project is to create a Chrome Extension that summarizes selecte
 * Google Palm 2 for text summarization
 * Twitter intent hyperlink
 
+![alt text](https://github.com/jegamboafuentes/Google-Cloud-Vertex-AI-Hackathon/blob/main/chromeextention1/images/diagram%20afuera.jpg?raw=true)
+
 ### 🚀 Getting Started
 
 To set up the Palm2 Tweet Creator on your local machine, follow these instructions:
