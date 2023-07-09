@@ -29,7 +29,15 @@ To set up the Palm2 Tweet Creator on your local machine, follow these instructio
 `git clone https://github.com/jegamboafuentes/Google-Cloud-Vertex-AI-Hackathon.git`
 2. Navigate to the project directory:  
 `cd Google-Cloud-Vertex-AI-Hackathon/chromeextention1`
-3. Follow the installation instructions mentioned above.
+3. Follow the installation instructions mentioned next.
+
+### ⚒️ How to Install the Chrome Extension
+
+1. Open the Chrome browser and navigate to `chrome://extensions/`.
+2. Switch on 'Developer mode' in the top right.
+3. Click on 'Load unpacked' and select the project folder you just downloaded/cloned.
+4. The extension is now installed. You should see an icon for it in your extensions bar.
+
 
 ### 🎯 Usage
 
