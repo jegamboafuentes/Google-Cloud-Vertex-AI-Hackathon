@@ -31,6 +31,9 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         // Store summarized text in local storage
         chrome.storage.local.set({ summarizedText: data.candidates[0].output });
       })
-      .catch(error => console.error('Error:', error));
+      .catch(error => {
+        console.error('Error:', error);
+        chrome.storage.local.set({ summarizedText: "PALM 2 CANT READ THE MESSAGE. INFORMATION ABOUT THE ERROR: " + error.message });
+      });
   }
 });
