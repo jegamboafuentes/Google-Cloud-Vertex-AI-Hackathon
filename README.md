@@ -7,8 +7,8 @@
 
 Please replace "GitHub" and "Devpost" links with your actual links. 
 
-* Elias Ordaz Sanchez: [GitHub](#) | [Devpost](#)
-* Enrique Gamboa: [GitHub](#) | [Devpost](#)
+* Elias Ordaz Sanchez: [GitHub](https://github.com/Elias0109)
+* Enrique Gamboa: [GitHub](https://github.com/jegamboafuentes)
 
 
 ### Project Description
