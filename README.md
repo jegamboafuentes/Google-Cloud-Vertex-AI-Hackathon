@@ -1,6 +1,7 @@
 # Palm2 Tweet Creator
-
 ## Google Cloud Vertex AI Hackathon
+![alt text]([https://github.com/sutt/Satosh-E/blob/EnriqueBranch/back/static/assets/img/cover.png](https://github.com/jegamboafuentes/Google-Cloud-Vertex-AI-Hackathon/blob/EliasBranch/chromeextention1/images/coverGit.png)?raw=true)
+
 
 ### Team Members
 
