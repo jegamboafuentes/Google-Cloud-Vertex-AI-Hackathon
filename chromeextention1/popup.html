@@ -5,71 +5,70 @@
     <title>Tweet Creator</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
+            font-family: "Arial", sans-serif;
             width: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
         }
 
         h1 {
-            color: #343a40;
-            margin-bottom: 25px;
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            background: #eee;
         }
 
-        p#summary {
-            font-size: 0.9em;
-            color: #6c757d;
-            margin-bottom: 25px;
+        h1:before,
+        h1:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 50px;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1:before {
+            left: -60px;
+            background-image: url("images/iconLogoMetaverse.png");
+        }
+
+        h1:after {
+            right: -60px;
+            background-image: url("images/iconTwitter.png");
         }
 
         form {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-
-        label {
-            font-weight: bold;
-            margin-bottom: 10px;
+            margin: 20px 0;
         }
 
         input[type="text"] {
+            width: 100%;
             padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ced4da;
-            margin-bottom: 20px;
-            font-size: 0.9em;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
         }
 
         button {
-            padding: 10px;
+            margin-top: 10px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
+            background: #3b5998;
             color: #fff;
             cursor: pointer;
-            font-size: 0.9em;
-            margin-bottom: 10px;
-        }
-
-        button#textToSpeech {
-            background-color: #007bff;
-        }
-
-        button#tweet {
-            background-color: #28a745;
         }
 
         button:disabled {
-            background-color: #ccc;
+            background: #ccc;
             cursor: not-allowed;
+        }
+
+        button#tweet {
+            background: #1DA1F2;
         }
     </style>
 </head>
@@ -77,10 +76,6 @@
 <body>
     <h1>Tweet Creator</h1>
     <p id="summary">Loading...</p>
-    <form action="/action_page.php">
-        <label for="UserTwitter">Twitter User:</label>
-        <input type="text" id="UserTwitter" name="UserTwitter">
-    </form>
     <button id="textToSpeech" disabled>Turn Text to Speech</button>
     <button id="tweet">Tweet</button>
     <script src="popup.js"></script>
