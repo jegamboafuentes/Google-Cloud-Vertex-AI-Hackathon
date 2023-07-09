@@ -29,7 +29,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         console.log(data);
         console.log(data.candidates[0].output);
         // Store summarized text in local storage
-        chrome.storage.local.set({ summarizedText: data.text });
+        chrome.storage.local.set({ summarizedText: data.candidates[0].output });
       })
       .catch(error => console.error('Error:', error));
   }
