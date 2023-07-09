@@ -1,13 +1,17 @@
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    document.getElementById('summary').innerText = request.summary;
+document.addEventListener('DOMContentLoaded', () => {
+  // Fetch summarized text from local storage
+  chrome.storage.local.get(['summarizedText'], function(result) {
+      document.getElementById('summary').innerText = result.summarizedText;
   });
-  
-  document.getElementById('textToSpeech').addEventListener('click', () => {
-    let summary = document.getElementById('summary').innerText;
-    chrome.tts.speak(summary);
-  });
-  
+
+  // Add event listener for tweet button
   document.getElementById('tweet').addEventListener('click', () => {
-    // Add your tweeting functionality here
+      // Implement tweet functionality here
   });
-  
+
+  // Listen for messages from the background script
+  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+      // Update the popup's content
+      document.getElementById('summary').innerText = request.summarizedText;
+  });
+});

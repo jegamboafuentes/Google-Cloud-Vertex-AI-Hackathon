@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Tweet Creator</title>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <h1>Tweet Creator</h1>
-    <p id="summary"></p>
-    <button id="textToSpeech">Text To Speech</button>
-    <button id="tweet">Tweet</button>
-  </body>
+    <head>
+        <title>Tweet Creator</title>
+        <style>
+            body {
+                font-family: "Arial", sans-serif;
+                width: 300px;
+            }
+            button {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tweet Creator</h1>
+        <p id="summary">Loading...</p>
+        <button id="textToSpeech">Turn Text to Speech</button>
+        <button id="tweet">Tweet</button>
+        <script src="popup.js"></script>
+    </body>
 </html>

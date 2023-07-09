@@ -1,23 +1,21 @@
 {
-    "manifest_version": 3,
-    "name": "Tweet Creator",
-    "version": "1.0",
-    "permissions": ["contextMenus", "activeTab", "tts"],
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-      }
-    },
-    "background": {
-      "service_worker": "background.js"
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "Gus 2 Tweet Creator",
+  "version": "1.0",
+  "description": "Summarize any selected text as a tweet",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
       "16": "images/icon16.png",
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     }
   }
-  
+}
