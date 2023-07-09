@@ -19,13 +19,15 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
       headers: {
         'Content-Type': 'application/json'
       },
-    //body: JSON.stringify({ "prompt": { "text": selectedText } })
-    //body: JSON.stringify({ "prompt": "Crea un poema sobre Java Script"})
-      body: JSON.stringify({ "prompt": { "text": "Crea un poema sobre Java Script" } })
+      //body: JSON.stringify({ "prompt": { "text": selectedText } })
+      //body: JSON.stringify({ "prompt": "Crea un poema sobre Java Script"})
+      //body: JSON.stringify({ "prompt": { "text": "create a poem about Java Script" } })
+      body: JSON.stringify({ "prompt": { "text": selectedText+" Please, summarize this text as a tweet with hashtags" } })
     })
       .then(response => response.json())
       .then(data => {
-        console.log(response);
+        console.log(data);
+        console.log(data.candidates[0].output);
         // Store summarized text in local storage
         chrome.storage.local.set({ summarizedText: data.text });
       })
