@@ -22,7 +22,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
       //body: JSON.stringify({ "prompt": { "text": selectedText } })
       //body: JSON.stringify({ "prompt": "Crea un poema sobre Java Script"})
       //body: JSON.stringify({ "prompt": { "text": "create a poem about Java Script" } })
-      body: JSON.stringify({ "prompt": { "text": selectedText+" Please, summarize this text as a tweet with hashtags" } })
+      body: JSON.stringify({ "prompt": { "text": selectedText+" Please, summarize this text as a tweet with hashtags and emojis" } })
     })
       .then(response => response.json())
       .then(data => {
