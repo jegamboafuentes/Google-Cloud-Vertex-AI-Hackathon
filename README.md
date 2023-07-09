@@ -1,29 +1,27 @@
-# Palm2 Tweet Creator
-## Google Cloud Vertex AI Hackathon
+# 🌴 Palm2 Tweet Creator
+## 🚀 Google Cloud Vertex AI Hackathon
 ![alt text](https://github.com/jegamboafuentes/Google-Cloud-Vertex-AI-Hackathon/blob/EliasBranch/chromeextention1/images/coverGit.png?raw=true)
 
+### 🎯 Team Members
 
-### Team Members
-
-Please replace "GitHub" and "Devpost" links with your actual links. 
+Please replace "GitHub" and "Devpost" links with your actual links.
 
 * Elias Ordaz Sanchez: [GitHub](https://github.com/Elias0109)
 * Enrique Gamboa: [GitHub](https://github.com/jegamboafuentes)
 
-
-### Project Description
+### 💡 Project Description
 
 Palm2 Tweet Creator is a unique Chrome Extension that transforms any selected text from any website into a tweet using Google's Palm2.
 
-### Scope
+### 🌐 Scope
 
 The goal of this project is to create a Chrome Extension that summarizes selected text into a tweet using Google Palm 2 for text summarization and Twitter intent hyperlink.
 
-### Technologies Used
+### 💻 Technologies Used
 * Google Palm 2 for text summarization
 * Twitter intent hyperlink
 
-### Getting Started
+### 🚀 Getting Started
 
 To set up the Palm2 Tweet Creator on your local machine, follow these instructions:
 
@@ -33,11 +31,11 @@ To set up the Palm2 Tweet Creator on your local machine, follow these instructio
 `cd Google-Cloud-Vertex-AI-Hackathon/chromeextention1`
 3. Follow the installation instructions mentioned above.
 
-### Usage
+### 🎯 Usage
 
 Once the extension is installed in your Chrome browser, you can select any text on a website, right-click to see the context menu, and click on "Create Tweet". The extension will summarize the text and provide a link to post it as a tweet.
 
-### Contributing
+### 🤝 Contributing
 
 We welcome contributions to the Palm2 Tweet Creator project. If you'd like to contribute, please follow these steps:
 
@@ -49,16 +47,16 @@ We welcome contributions to the Palm2 Tweet Creator project. If you'd like to co
 
 Please make sure to follow the coding standards and best practices of the project. Additionally, ensure that your changes do not introduce new bugs or break existing functionality.
 
-### License
+### 📄 License
 
 This project is licensed under the MIT License. Please refer to the LICENSE file for more information.
 
-### Support
+### 📞 Support
 
 If you have any questions or need assistance with using the Palm2 Tweet Creator, please feel free to reach out to us through the contact information provided in the team member section above.
 
 Also, you can create an issue in this repository, and we will do our best to address your concerns as soon as possible.
 
-### Acknowledgments
+### 🙏 Acknowledgments
 
 We would like to thank the organizers and sponsors of the Google Cloud Vertex AI Hackathon 2023 for providing us with the opportunity to work on this project. We would also like to express our gratitude to the creators and maintainers of the Google Palm2 and Twitter Intent Hyperlink for their valuable contributions to the open-source community.
