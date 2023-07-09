@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Gus 2 Tweet Creator",
+  "name": "Palm2 Tweet creator",
   "version": "1.0",
   "description": "Summarize any selected text as a tweet",
   "permissions": [
