@@ -1,4 +1,4 @@
-# 🌴 Palm2 Tweet Creator
+# 🌴 PaLM Tweet Creator
 ## 🚀 Google Cloud Vertex AI Hackathon
 ![alt text](https://github.com/jegamboafuentes/Google-Cloud-Vertex-AI-Hackathon/blob/EliasBranch/chromeextention1/images/coverGit.png?raw=true)
 
